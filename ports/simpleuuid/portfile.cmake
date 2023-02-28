@@ -1,9 +1,9 @@
 set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/simpleuuid)
 
 vcpkg_download_distfile(ARCHIVE
-    URLS "https://github.com/libsese/SimpleUuid/archive/refs/tags/v0.1.3.zip"
-    FILENAME "SimpleUuid-0.1.3.zip"
-    SHA512 6c90583e29a11f859c4b1b8d6384e4cef4ee8e2632d37d7f6d73b1252ff3587494360f4b0d80ddc079cb6e2d46c813db20ef39e6a8c2c2049ce4327a619002a4
+    URLS "https://github.com/libsese/SimpleUuid/archive/refs/tags/v0.1.4.zip"
+    FILENAME "SimpleUuid-0.1.4.zip"
+    SHA512 9f2272bbc7121051fa4477b36c3841b2ff3fbdd0e4be2fcb5a1ec153510667b9e516bb5197f8297da35c8a6a4c99b848732d6895cc36d02553596d6b54271423
 )
 
 vcpkg_extract_source_archive_ex(
