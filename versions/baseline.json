@@ -7,6 +7,10 @@
         "sstring": {
             "baseline": "0.1.3",
             "port-version": 0
+        },
+        "sese": {
+            "baseline": "0.5.3",
+            "port-version": 0
         }
     }
 }
