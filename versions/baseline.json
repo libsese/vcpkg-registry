@@ -11,6 +11,10 @@
         "sese": {
             "baseline": "0.5.3",
             "port-version": 0
+        },
+        "sese-plugin": {
+            "baseline": "0.1.0",
+            "port-version": 0
         }
     }
 }
