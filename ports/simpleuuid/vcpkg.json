@@ -1,11 +1,11 @@
 {
-  "name": "simpleuuid",
-  "version": "0.1.4",
-  "description" : "An implementation of snowflake algorithm.",
-  "dependencies": [
-    {
-      "name": "vcpkg-cmake",
-      "host": true
-    }
-  ]
+    "name": "simpleuuid",
+    "version": "0.1.4",
+    "description": "An implementation of snowflake algorithm.",
+    "dependencies": [
+        {
+            "name": "vcpkg-cmake",
+            "host": true
+        }
+    ]
 }
