@@ -1,11 +1,16 @@
 {
     "name": "sstring",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Cross-platform UTF-8 string library.",
     "dependencies": [
         {
             "name": "vcpkg-cmake",
             "host": true
         }
-    ]
+    ],
+    "features": {
+        "tests": {
+            "description": "build the unit test"
+        }
+    }
 }
