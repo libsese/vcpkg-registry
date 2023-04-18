@@ -7,5 +7,10 @@
             "name": "vcpkg-cmake",
             "host": true
         }
-    ]
+    ],
+    "features": {
+        "tests": {
+            "description": "build the unit test"
+        }
+    }
 }
