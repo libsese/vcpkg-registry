@@ -3,7 +3,7 @@ set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/sese-event)
 vcpkg_download_distfile(ARCHIVE
         URLS "https://github.com/libsese/sese.event/archive/refs/tags/0.1.0.zip"
         FILENAME "sese-event-0.1.0.zip"
-        SHA512 c8e98ad4a586fe802abc959d481ef2bcb06a9bcb6d42558fb1e4f7756cc5f1e8c6190be9fdcb4a38aafc0cc43df93174f7ce922d90f64220d4c60c0ea901c45f
+        SHA512 8a0100bcd4494571b6e29a31bb8f23e8366489d4933923c2b0238b976c990e9b2b86122552a5df1fdfc41391cde03c93909c1432e1f12fc9d3e1496171932389
         )
 
 vcpkg_extract_source_archive_ex(
