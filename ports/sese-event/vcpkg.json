@@ -1,0 +1,17 @@
+{
+    "name": "sese-event",
+    "version-string": "0.1.0",
+    "license": "Apache-2.0",
+    "dependencies": [],
+    "features": {
+        "tests": {
+            "description": "build the unit test targets",
+            "dependencies": [
+                {
+                    "name": "gtest",
+                    "version>=": "1.13.0"
+                }
+            ]
+        }
+    }
+}
