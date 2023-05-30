@@ -3,7 +3,7 @@ set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/sese)
 vcpkg_download_distfile(ARCHIVE
         URLS "https://github.com/libsese/sese-core/archive/refs/tags/0.5.3a.zip"
         FILENAME "sese-core-0.5.3a.zip"
-        SHA512 fceba95a7ced1d9715de461e171d948f44c58c4a043949c94e8c414a61af41024000422858cafb7634d6bb887fedfed0df7e6d40fd612923f87982c8b722ad1b
+        SHA512 b7f40babaed592bab899d54e78e555817e3d0b037ac2da1978ba70df32d44cb77c219097c85599097044d19bd2fdf1a3889fd2aa147c565623840807d59bf611
         )
 
 vcpkg_extract_source_archive_ex(
