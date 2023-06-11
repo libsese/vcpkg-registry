@@ -1,6 +1,7 @@
 {
     "name": "sese",
-    "version-string": "0.5.3",
+    "version-string": "0.6.3",
+    "description": "A cross-platform class library.",
     "supports": "x64",
     "license": "Apache-2.0",
     "dependencies": [
@@ -9,20 +10,24 @@
             "version>=": "3.0.7#2"
         },
         {
-            "name": "gtest",
-            "version>=": "1.12.1"
-        },
-        {
             "name": "simpleuuid",
             "version>=": "0.1.4"
         },
         {
             "name": "sstring",
-            "version>=": "0.1.4"
+            "version>=": "0.1.5"
         },
         {
             "name": "zlib",
             "version>=": "1.2.12"
+        },
+        {
+            "name": "sese-plugin",
+            "version>=": "0.2.1"
+        },
+        {
+            "name": "sese-event",
+            "version>=": "0.1.1"
         },
         {
             "name": "vcpkg-cmake",
@@ -32,5 +37,20 @@
             "name": "vcpkg-cmake-config",
             "host": true
         }
-    ]
+    ],
+    "features": {
+        "tests": {
+            "description": "build the unit test",
+            "dependencies": [
+                {
+                    "name": "gtest",
+                    "version>=": "1.12.1"
+                }
+            ]
+        },
+        "async-logger": {
+            "description": "use the async logger",
+            "dependencies": []
+        }
+    }
 }

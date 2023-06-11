@@ -9,7 +9,7 @@
             "port-version": 0
         },
         "sese": {
-            "baseline": "0.5.3",
+            "baseline": "0.6.3",
             "port-version": 0
         },
         "sese-plugin": {
