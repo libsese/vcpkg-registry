@@ -1,6 +1,6 @@
 {
     "name": "sese",
-    "version-string": "0.7.6",
+    "version-string": "0.7.7",
     "description": "A cross-platform class library.",
     "supports": "x64",
     "license": "Apache-2.0",
