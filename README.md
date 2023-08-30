@@ -42,7 +42,7 @@ Please edit the **vcpkg.json** and **vcpkg-configuration.json** on your project 
 
 | project     | package     | version |
 |-------------|-------------|---------|
-| sese-core   | sese        | 0.7.7   |
+| sese-core   | sese        | 1.0.0   |
 | sese-db     | x           | x       |
 | sese-event  | sese-event  | 0.1.4   |
 | sese-plugin | sese-plugin | 0.2.2   |
