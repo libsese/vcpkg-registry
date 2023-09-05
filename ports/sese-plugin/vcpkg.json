@@ -1,6 +1,6 @@
 {
     "name": "sese-plugin",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "homepage": "https://github.com/libsese/sese.plugin.git",
     "description": "A plugin system for sese-core",
     "dependencies": [

@@ -1,6 +1,6 @@
 {
     "name": "simpleuuid",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "An implementation of snowflake algorithm.",
     "dependencies": [
         {
@@ -10,7 +10,13 @@
     ],
     "features": {
         "tests": {
-            "description": "build the unit test"
+            "description": "build the unit test",
+            "dependencies": [
+                {
+                    "name": "gtest",
+                    "version>=": "1.13.0"
+                }
+            ]
         }
     }
 }

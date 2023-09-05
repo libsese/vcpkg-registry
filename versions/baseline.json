@@ -1,11 +1,11 @@
 {
     "default": {
         "simpleuuid": {
-            "baseline": "0.1.4",
+            "baseline": "0.1.5",
             "port-version": 0
         },
         "sstring": {
-            "baseline": "0.1.5",
+            "baseline": "0.1.6",
             "port-version": 0
         },
         "sese": {
@@ -13,11 +13,11 @@
             "port-version": 0
         },
         "sese-plugin": {
-            "baseline": "0.2.2",
+            "baseline": "0.2.3",
             "port-version": 0
         },
         "sese-event": {
-            "baseline": "0.1.4",
+            "baseline": "0.1.5",
             "port-version": 0
         }
     }

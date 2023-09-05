@@ -1,9 +1,9 @@
 set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/sstring)
 
 vcpkg_download_distfile(ARCHIVE
-        URLS "https://github.com/libsese/SString/archive/refs/tags/v0.1.5.zip"
-        FILENAME "SString-0.1.5.zip"
-        SHA512 c4b9ae6c44aaadc79b887556a54838e29e7039ca8c0770ec3e6add10220e79a8c6c54e175399133a8d8b2e953152cc8a9c125a375911770078089c1680eb54fe
+        URLS "https://github.com/libsese/SString/archive/refs/tags/0.1.6.zip"
+        FILENAME "SString-0.1.6.zip"
+        SHA512 c7e28e45fb791169c2a5433e257da8eaefafe2bd10cd7185ba1ebfcfd6c8ddfe92485c06fcad112ad0d9a30caf6a369ae27b40a4adc3484476c31c1cd9f87c42
         )
 
 vcpkg_extract_source_archive_ex(

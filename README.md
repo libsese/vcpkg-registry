@@ -44,7 +44,7 @@ Please edit the **vcpkg.json** and **vcpkg-configuration.json** on your project 
 |-------------|-------------|---------|
 | sese-core   | sese        | 1.0.0   |
 | sese-db     | x           | x       |
-| sese-event  | sese-event  | 0.1.4   |
-| sese-plugin | sese-plugin | 0.2.2   |
-| SString     | sstring     | 0.1.5   |
-| SimpleUuid  | simpleuuid  | 0.1.4   |
+| sese-event  | sese-event  | 0.1.5   |
+| sese-plugin | sese-plugin | 0.2.3   |
+| SString     | sstring     | 0.1.6   |
+| SimpleUuid  | simpleuuid  | 0.1.5   |

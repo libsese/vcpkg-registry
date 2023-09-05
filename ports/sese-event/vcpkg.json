@@ -1,6 +1,6 @@
 {
     "name": "sese-event",
-    "version-string": "0.1.4",
+    "version-string": "0.1.5",
     "license": "Apache-2.0",
     "description": "Cross-platform network event library",
     "dependencies": [
