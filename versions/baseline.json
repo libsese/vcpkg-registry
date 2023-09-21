@@ -17,7 +17,7 @@
             "port-version": 0
         },
         "sese-event": {
-            "baseline": "0.1.6",
+            "baseline": "0.1.7",
             "port-version": 0
         }
     }
