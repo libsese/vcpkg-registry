@@ -40,11 +40,11 @@ Please edit the **vcpkg.json** and **vcpkg-configuration.json** on your project 
 
 ## Packages
 
-| project     | package     | version |
-|-------------|-------------|---------|
-| sese-core   | sese        | 1.2.0   |
-| sese-db     | x           | x       |
-| sese-event  | sese-event  | 0.1.6   |
-| sese-plugin | sese-plugin | 0.2.3   |
-| SString     | sstring     | 0.1.6   |
-| SimpleUuid  | simpleuuid  | 0.1.5   |
+| project     | package     | version    |
+|-------------|-------------|------------|
+| sese-core   | sese        | 1.2.0      |
+| sese-db     | x           | x          |
+| sese-event  | sese-event  | deprecated |
+| sese-plugin | sese-plugin | deprecated |
+| SString     | sstring     | deprecated |
+| SimpleUuid  | simpleuuid  | deprecated |
