@@ -13,7 +13,7 @@
             "port-version": 0
         },
         "sese-core": {
-            "baseline": "1.3.1",
+            "baseline": "1.3.2",
             "port-version": 0
         },
         "sese-plugin": {
