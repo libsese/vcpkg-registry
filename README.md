@@ -42,8 +42,8 @@ Please edit the **vcpkg.json** and **vcpkg-configuration.json** on your project 
 
 | project     | package     | version    |
 |-------------|-------------|------------|
-| sese-core   | sese-core   | 1.3.3      |
-| sese-db     | x           | x          |
+| sese-core   | sese-core   | 1.3.4      |
+| sese-db     | sese-db     | 1.2.0      |
 | sese-event  | sese-event  | deprecated |
 | sese-plugin | sese-plugin | deprecated |
 | SString     | sstring     | deprecated |
