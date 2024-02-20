@@ -3,13 +3,16 @@ set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/sese)
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO libsese/sese-core
-        REF 1.3.4
-        SHA512 0ce513155ac6af5344e8e6a20ce8161597aa89bcd08b8d6098750c6abc6115ccbb5c1fd6f37a86d1549d8efc7cc15f8e4066f022ff074ff0b7100b61fe9d06f8
+        REF 1.4.0
+        SHA512 6b9e43166539a93a02868911379057d08b8af4bca587115cb24730cd5ef8862848bada8c7d5897cb803563ad3bebb87b2d4fd19072311a63bfc3a3ccbbc6e066
 )
 
 vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTIONS
         FEATURES
         tests        SESE_BUILD_TEST
+        mysql        SESE_DB_USE_MARIADB
+        sqlite3      SESE_DB_USE_SQLITE
+        psql         SESE_DB_USE_POSTGRES
         async-logger USE_ASYNC_LOGGER
 )
 
