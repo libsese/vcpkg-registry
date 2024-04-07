@@ -1,6 +1,6 @@
 {
     "name": "sese-core",
-    "version-string": "2.0.0",
+    "version-string": "2.0.1",
     "supports": "x64",
     "license": "Apache-2.0",
     "dependencies": [
@@ -10,10 +10,6 @@
                 "openssl"
             ],
             "version>=": "1.29.0"
-        },
-        {
-            "name": "libarchive",
-            "version>=": "3.7.2"
         },
         {
             "name": "openssl",
@@ -48,6 +44,15 @@
         "async-logger": {
             "description": "use the async logger",
             "dependencies": []
+        },
+        "archive": {
+            "description": "add archive support",
+            "dependencies": [
+                {
+                    "name": "libarchive",
+                    "version>=": "3.7.2"
+                }
+            ]
         },
         "mysql": {
             "description": "add mysql and mariadb support",
