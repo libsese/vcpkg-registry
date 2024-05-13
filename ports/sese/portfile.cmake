@@ -1,4 +1,15 @@
-include(remove_empty_directories_recursive.cmake)
+function(remove_empty_directories_recursive dir)
+    file(GLOB before_subdirs "${dir}/*")
+    foreach (subdir ${before_subdirs})
+        if (IS_DIRECTORY ${subdir})
+            remove_empty_directories_recursive(${subdir})
+        endif ()
+    endforeach ()
+    file(GLOB after_subdirs "${dir}/*")
+    if ("${after_subdirs}" STREQUAL "")
+        file(REMOVE_RECURSE "${dir}")
+    endif ()
+endfunction()
 
 set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/sese)
 
