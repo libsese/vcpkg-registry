@@ -29,8 +29,8 @@
             "git-tree": "eaecbd9d80c50971e188a9d357890b6b657e9afe"
         },
         {
-            "git-tree": "3eda7e93373ed777b2fa46c0d4bce375c5e12615",
-            "version-string": "2.1.1",
+            "git-tree": "fc8dc2c918fbcf454bb857af475f4927ddef2625",
+            "version": "2.1.1",
             "port-version": 0
         }
     ]
