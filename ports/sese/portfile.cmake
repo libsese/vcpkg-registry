@@ -16,7 +16,7 @@ set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/sese)
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO libsese/sese
-        REF "${VERSION}"
+        REF "2.3.0-alpha"
         SHA512 8af861658bd76eaece8e2b732502887441be18069df8620b4d93b8a560f7d68acfd3f104e852d0742006394ecda706e7ee4584cf2c4d5cac8eb22a37ab853ff8
 )
 
