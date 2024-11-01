@@ -13,11 +13,19 @@ endfunction()
 
 set(SOURCE_PATH ${CURRENT_BUILDTRESS_DIR}/sese)
 
+vcpkg_download_distfile(PATCH_FIX_ENV_STATEMENT
+        URLS https://github.com/libsese/sese/commit/59fa66d24996eceddc2c406b043687cd13a741dd.patch?full_index=1
+        SHA512 94661bf2306c40dd3d62409babf26787087e7bc3abade532e9b656080de2f237fd640465272228055da250670d286ede10bd8776cc0d67429d6e0846cfd06d5e
+        FILENAME libsese-sese-2.3.0-59fa66d24996eceddc2c406b043687cd13a741dd.patch
+)
+
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO libsese/sese
-        REF "2.3.0-alpha"
+        REF "refs/tags/${VERSION}"
         SHA512 8af861658bd76eaece8e2b732502887441be18069df8620b4d93b8a560f7d68acfd3f104e852d0742006394ecda706e7ee4584cf2c4d5cac8eb22a37ab853ff8
+        PATCHES
+            ${PATCH_FIX_ENV_STATEMENT}
 )
 
 vcpkg_check_features(OUT_FEATURE_OPTIONS FEATURE_OPTIONS

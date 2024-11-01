@@ -6,6 +6,7 @@
     "license": "Apache-2.0",
     "supports": "x64 & (windows | osx | linux) & !uwp",
     "builtin-baseline": "1de2026f28ead93ff1773e6e680387643e914ea1",
+    "port-version": 1,
     "dependencies": [
         {
             "name": "asio",
